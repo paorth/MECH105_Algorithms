@@ -1,11 +1,11 @@
-## False Position Algorithm
+# False Position Algorithm
 
 This repository contains a MATLAB implementation of the False Position algorithm, a numerical method used to approximate the roots of a given function.
 
-# How it Works
+## How it Works
 The False Position algorithm uses a similar approach to the Bisection Method, but typically converges faster. The algorithm works by selecting two initial points, which must bracket the root of the function. It then calculates the midpoint between these two points and evaluates the function at this point. Based on the sign of the function value at this point, it replaces one of the initial points with the midpoint, and repeats the process until the approximate root is found to within a specified tolerance.
 
-# Usage
+## Usage
 
 To use this False Position algorithm implementation in MATLAB, simply run the falsePosition.m script in the MATLAB environment.  
 
