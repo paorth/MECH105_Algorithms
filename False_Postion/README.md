@@ -11,16 +11,16 @@ To use this False Position algorithm implementation in MATLAB, simply run the fa
 
 ### inputs:
 
-- func: The function for which to find a root (must be defined in MATLAB syntax)
-- xl: The lower bound of the initial interval
-- xu: The upper bound of the initial interval
-- es: The desired relative error (default value is 0.0001%)
-- maxiter: The maximum number of iterations to perform (default value is 200)  
+- **func**: The function for which to find a root (must be defined in MATLAB syntax)
+- **xl**: The lower bound of the initial interval
+- **xu**: The upper bound of the initial interval
+- **es**: The desired relative error (default value is 0.0001%)
+- **maxiter**: The maximum number of iterations to perform (default value is 200)  
 
 ### Outputs:
 
-- root: The approximate root of the function
-- fx: The function value at the approximate root
-- ea: The approximate relative error at the root
-- iter: The number of iterations performed by the algorithm
+- **root**: The approximate root of the function
+- **fx**: The function value at the approximate root
+- **ea**: The approximate relative error at the root
+- **iter**: The number of iterations performed by the algorithm
 
