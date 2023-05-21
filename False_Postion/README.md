@@ -9,7 +9,7 @@ The False Position algorithm uses a similar approach to the Bisection Method, bu
 
 To use this False Position algorithm implementation in MATLAB, simply run the falsePosition.m script in the MATLAB environment.  
 
-The script takes in the following inputs:
+### inputs:
 
 - func: The function for which to find a root (must be defined in MATLAB syntax)
 - xl: The lower bound of the initial interval
@@ -17,7 +17,7 @@ The script takes in the following inputs:
 - es: The desired relative error (default value is 0.0001%)
 - maxiter: The maximum number of iterations to perform (default value is 200)  
 
-The script outputs the following:
+### Outputs:
 
 - root: The approximate root of the function
 - fx: The function value at the approximate root
