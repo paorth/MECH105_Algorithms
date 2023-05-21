@@ -24,5 +24,5 @@ To use this False Position algorithm implementation in MATLAB, simply run the fa
 - **ea**: The approximate relative error at the root
 - **iter**: The number of iterations performed by the algorithm
 
- `test`
+ 
 
