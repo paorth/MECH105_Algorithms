@@ -15,7 +15,7 @@ To use this False Position algorithm implementation in MATLAB, simply run the fa
 - **xl**: The lower bound of the initial interval
 - **xu**: The upper bound of the initial interval
 - **es**: The desired relative error (default value is 0.0001%)
-- **maxiter**: The maximum number of iterations to perform (default value is 200)  
+- **maxit**: The maximum number of iterations to perform (default value is 200)  
 
 ### Outputs:
 
